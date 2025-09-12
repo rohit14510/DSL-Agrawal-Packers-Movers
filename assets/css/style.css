@@ -1561,13 +1561,21 @@ h2 {
   background-color: #ffd3d7	;
   border-radius: 10px;
 }
+.bs-box h2{
+  margin: 0 !important;
+}
 .bs-box h2 a{
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+ 
 }
 .bs-box{
   transition: .5s;
   height: 100%;
+  margin: 0%;
+  padding: 0;
 }
 .bs-box:hover{
   color: #fff;
