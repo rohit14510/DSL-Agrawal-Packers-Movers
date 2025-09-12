@@ -1545,3 +1545,34 @@ h2 {
 }
 
 /*---thank-Section-end----*/
+/* -------branches-section-start------- */
+
+.branches-section{
+  padding-top: 80px;
+}
+.branches-head{
+  text-align: center;
+}
+.branches-head .under{
+  justify-content: center;
+}
+.testimonial-section .bs-box{
+  padding: 20px;
+  background-color: #ffd3d7	;
+  border-radius: 10px;
+}
+.bs-box h4{
+  font-size: 25px;
+  margin-top: 20px;
+}
+.bs-box{
+  transition: .5s;
+  height: 100%;
+}
+.bs-box:hover{
+  color: #fff;
+  background-color: #a5000e ;
+}
+.bs-box:hover a{
+  color: #fff;
+}
