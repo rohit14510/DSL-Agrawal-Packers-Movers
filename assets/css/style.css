@@ -1558,13 +1558,15 @@ h2 {
 }
 .testimonial-section .bs-box{
   padding: 10px;
-  background-color: #ffd3d7	;
+  background-color: #d5b800	;
+
   border-radius: 10px;
 }
 .bs-box h2{
   margin: 0 !important;
 }
 .bs-box h2 a{
+    color: #fff;
   font-size: 20px;
   font-weight: 400;
   margin: 0;
