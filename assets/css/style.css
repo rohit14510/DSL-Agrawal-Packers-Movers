@@ -1561,7 +1561,7 @@ h2 {
   background-color: #ffd3d7	;
   border-radius: 10px;
 }
-.bs-box h2{
+.bs-box h2 a{
   font-size: 20px;
   font-weight: 500;
 }
