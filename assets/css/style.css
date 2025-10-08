@@ -60,7 +60,7 @@ h2 {
     align-items: center;
     justify-content: center;
     box-shadow: 0px 5px 10px 0px #0000003b;
-    background: #d5b800;
+    background: #000;
 }
 .what a:last-child {
     font-size: 25px;
@@ -72,18 +72,18 @@ h2 {
 .sec-btn {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #a5000e;
+  background-color: #f00b0b;
   color: #fff;
   border-radius: 4px;
   transition: .5s;
-  border: 1px solid #a5000e;
+  border: 1px solid #f00b0b;
   text-transform: uppercase;
   font-size: 18px;
 }
 
 .sec-btn:hover {
   background-color: transparent;
-  color: #a5000e;
+  color: #f00b0b;
   border-radius: 30px;
 }
 
@@ -97,7 +97,7 @@ h2 {
   bottom: 5px;
   z-index: -1;
   left: 0;
-  background-color: #d5b800;
+  background-color: #f00b0b;
   height: 4px;
   width: 100%;
   content: "";
@@ -110,7 +110,7 @@ h2 {
 .top-bar {
   padding: 10px 0px;
   position: relative;
-  background-color: #a5000e;
+  background-color: #f00b0b;
 }
 
 .top-left ul {
@@ -134,7 +134,7 @@ h2 {
   color: #fff;
   font-size: 18px;
   align-items: center;
-  background-color: #d5b800;
+  background-color: #000;
   border-radius: 4px;
   justify-content: center;
 }
@@ -169,7 +169,7 @@ header .book {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #a5000e;
+  background-color: #f00b0b;
   height: 150px;
 }
 header .book .sec-btn{
@@ -204,7 +204,9 @@ header .book a {
   width: 100%;
 }
 .menu .navbar-brand img{
-  width: 260px;
+     max-width: 100%;
+    width: auto;
+    height: auto;
 }
 .menu .navbar {
   padding: 5px 0px;
@@ -220,7 +222,7 @@ header .book a {
 
 .menu .navbar-expand-lg .navbar-nav .nav-link:hover,
 .menu .navbar-expand-lg .navbar-nav .nav-link.active {
-  color: #d5b800;
+  color: #000;
 }
 
 /* -------header-section-end------ */
@@ -255,7 +257,7 @@ header .book a {
 }
 .as-item .as-img1 .overlay{
   background-color: #eee;
-  border: 3px double #d5b800;
+  border: 3px double #000;
   padding: 10px;
   text-align: center;
   margin-top: 15px;
@@ -267,7 +269,7 @@ header .book a {
 .as-item .as-img1 .overlay b{
   font-size: 38px;
   font-weight: 600;
-  color: #d5b800;
+  color: #000;
 }
 .about-section .under{
   display: inline-block;
@@ -296,7 +298,7 @@ header .book a {
   height: 30px;
   border-radius: 2px;
   width: 30px;
-  background-color: #d5b800;
+  background-color: #000;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -318,7 +320,7 @@ header .book a {
 .about-section .ms-box .icon{
   height: 100px;
   width: 100px;
-  background-color: #d5b800;
+  background-color: #000;
   display: flex;
   align-items: center;
   border-radius: 4px;
@@ -465,7 +467,7 @@ header .book a {
 }
 .review-box .user-info .text h5{
   font-weight: 600;
-  color: #d5b800;
+  color: #000;
   font-size: 20px;
   margin-bottom: 0;
 }
@@ -501,7 +503,7 @@ header .book a {
   top: 50%;
   left: 50%;
   font-size: 30px;
-  background-color: #a5000e;
+  background-color: #f00b0b;
   height: 80px;
   display: flex;
   align-items: center;
@@ -529,7 +531,7 @@ header .book a {
 
 @keyframes play {
   0%{box-shadow: 0px 0px 0px 0px transparent;}
-  50%{box-shadow: 0px 0px 0px 0px #d5b800;}
+  50%{box-shadow: 0px 0px 0px 0px #000;}
   100%{box-shadow: 0px 0px 0px 40px transparent;}
 }
 
@@ -553,7 +555,7 @@ header .book a {
   object-fit: cover;
 }
 .team-box span{
-  color: #a5000e;
+  color: #f00b0b;
   font-size: 15px;
   text-transform: uppercase;
 }
@@ -565,7 +567,7 @@ header .book a {
   box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.204);
 }
 .team-box:hover .text{
-  background-color: #d5b800;
+  background-color: #000;
   color: #fff;
 }
 .team-box .plus{
@@ -589,7 +591,7 @@ header .book a {
   top: -10px;
   right: 0;
   content: '';
-  border-top: 6px solid #a5000e;
+  border-top: 6px solid #f00b0b;
   width: 80%;
 }
 .team-box .plus::before{
@@ -600,7 +602,7 @@ header .book a {
   content: '';
   width: 50px;
   height: 50px;
-  background-color: #a5000e;
+  background-color: #f00b0b;
 }
 .slick-prev,.slick-next{
   display: none !important;
@@ -616,13 +618,13 @@ header .book a {
   font-size: 0;
   height: 10px;
   width: 10px;
-  background-color: #a5000e;
+  background-color: #f00b0b;
   border: none;
   border-radius: 100%;
   margin: 10px 4px;
 }
 .team-slider .slick-dots .slick-active button{
-  background-color: #d5b800;
+  background-color: #000;
   height: 8px;
   border-radius: 10px;
   width: 40px;
@@ -633,7 +635,7 @@ header .book a {
 /* ------cta-section-start--------- */
 .cta-section {
   margin-top: 40px;
-  background-color: #d5b800;
+  background-color: #000;
   position: relative;
   padding-top: 50px;
   color: #fff;
@@ -643,7 +645,7 @@ header .book a {
 .cta-section::after {
   height: 100%;
   width: 550px;
-  background-color: #a5000e;
+  background-color: #f00b0b;
   transform: skew(30deg);
   position: absolute;
   top: 0;
@@ -664,7 +666,7 @@ header .book a {
 }
 
 .cta-section .call h3 a {
-  color: #a5000e;
+  color: #f00b0b;
 }
 
 .cta-section .call>a {
@@ -674,7 +676,7 @@ header .book a {
   justify-content: center;
   height: 60px;
   width: 60px;
-  background: #a5000e;
+  background: #f00b0b;
   color: #fff;
   font-size: 25px;
   border-radius: 100%;
@@ -733,7 +735,9 @@ header .book a {
 }
 
 .footer-logo img {
-  width: 250px;
+    max-width: 100%;
+    width: auto;
+    height: auto;
 }
 
 .footer-box .social {
@@ -753,7 +757,7 @@ header .book a {
   width: 40px;
   display: flex;
   transition: .5s;
-  background-color: #d5b800;
+  background-color: #000;
   font-size: 18px;
   border-radius: 3px;
   color: #fff;
@@ -763,13 +767,13 @@ header .book a {
 
 
 .footer-box .social li a:hover {
-  background-color: #a5000e;
+  background-color: #f00b0b;
 }
 
 .footer-box .footer-title h4 {
   font-size: 20px;
   margin-bottom: 20px;
-  color: #d5b800;
+  color: #000;
   position: relative;
 }
 
@@ -777,7 +781,7 @@ header .book a {
   position: absolute;
   bottom: -5px;
   left: 0;
-  background-color: #a5000e;
+  background-color: #f00b0b;
   width: 50px;
   border-radius: 10px;
   height: 3px;
@@ -785,7 +789,7 @@ header .book a {
 }
 
 .footer-link ul li a:hover {
-  color: #a5000e;
+  color: #f00b0b;
 }
 
 .footer-box ul {
@@ -806,7 +810,7 @@ header .book a {
 }
 
 .footer-link2 ul li a:hover {
-  color: #a5000e;
+  color: #f00b0b;
 }
 .footer-link2 ul li p{
     margin-bottom:0;
@@ -821,11 +825,11 @@ header .book a {
   transition: .4s;
   border-radius: 3px;
   width: 40px;
-  background-color: #d5b800;
+  background-color: #000;
   font-size: 20px;
 }
 .footer-link2 ul li i:hover{
-  background-color: #a5000e;
+  background-color: #f00b0b;
 }
 
 .footer-link2 ul li span,
@@ -836,7 +840,7 @@ header .book a {
 .footer-section .copy-right {
   text-align: center;
   padding: 10px;
-  background-color: #a5000e;
+  background-color: #f00b0b;
   margin-top: 30px;
   font-weight: 300;
   color: #fff;
@@ -874,7 +878,7 @@ header .book a {
 .banner-section .list ul{
   display: flex;
   align-items: center;
-  color: #d5b800;
+  color: #000;
   justify-content: center;
   margin: 0;
   list-style: none;
@@ -894,7 +898,7 @@ header .book a {
 
 .contact-section .contact-box{
   padding: 20px;
-  background-color: #d5b800;
+  background-color: #000;
   color: #fff;
   margin-top: 20px;
   position: relative;
@@ -908,7 +912,7 @@ header .book a {
   height: 0;
   width: 100%;
   transition: .5s;
-  background-color: #a5000e;
+  background-color: #f00b0b;
   content: "";
 }
 .contact-section .contact-box:hover:after{
@@ -916,7 +920,7 @@ header .book a {
 }
 .contact-box .icon{
   height: 80px;
-  background-color: #a5000e;
+  background-color: #f00b0b;
   border-radius: 100%;
   margin-bottom: 10px;
   z-index: 9;
@@ -929,7 +933,7 @@ header .book a {
   justify-content: center;
 }
 .contact-box:hover .icon{
-  background-color: #d5b800;
+  background-color: #000;
 }
 .contact-box .icon img{
   width: 45px;
@@ -946,10 +950,10 @@ header .book a {
   font-size:22px ;
   font-weight: 700;
   transition: .5s;
-  color: #a5000e;
+  color: #f00b0b;
 }
 .contact-box:hover .text h4{
-  color: #d5b800;
+  color: #000;
 }
 .contact-box .text a{
   color: #fff;
@@ -967,7 +971,7 @@ header .book a {
   text-align: center;
 }
  .form-box{
-  background-color: #a5000e;
+  background-color: #f00b0b;
   color: #fff;
   padding: 25px;
   border-radius: 5px;
@@ -980,7 +984,7 @@ header .book a {
   border: none;
 }
  .form-box .f-box .sec-btn{
-  background-color: #d5b800;
+  background-color: #000;
   margin-top: 10px;
 }
 .form-section .count-box{
@@ -993,7 +997,7 @@ header .book a {
 .form-section .count-box .icon{
   height: 100px;
   width: 100px;
-  background-color: #d5b800;
+  background-color: #000;
   display: flex;
   margin-right: 15px;
   border-radius: 4px;
@@ -1002,7 +1006,7 @@ header .book a {
 }
 .form-section .count-box h3{
   font-size: 40px;
-  color: #a5000e;
+  color: #f00b0b;
 }
 .form-section .count-box h3::after{
   content: "+";
@@ -1020,7 +1024,7 @@ header .book a {
 .form-section #choose .count-box .icon{
   margin-right: 0;
   margin-bottom: 10px;
-  background-color: #a5000e;
+  background-color: #f00b0b;
 }
 /* ------form-section-start------ */
 
@@ -1047,15 +1051,15 @@ header .book a {
 .project-section ul li a {
   padding: 5px 15px;
   color: #fff;
-  border: 2px solid #d5b800;
-  background: #d5b800;
+  border: 2px solid #000;
+  background: #000;
   border-radius: 8px;
 }
 .project-section ul li {
   margin: 10px 4px;
 }
 .project-section ul li a:hover {
-  color: #d5b800;
+  color: #000;
   border-radius: 30px;
   background-color: transparent;
 }
@@ -1087,7 +1091,7 @@ header .book a {
   transition: .5s;
 }
 .project-section ul li .mixitup-control-active {
-  color: #d5b800;
+  color: #000;
   border-radius: 30px;
   background-color: transparent;
 }
@@ -1138,7 +1142,7 @@ header .book a {
   background-color: #eee;
   border-radius: 5px;
   z-index: 5;
-  border: 2px solid #a5000e;
+  border: 2px solid #f00b0b;
 }
 .dsl-list ul li {
   margin: 14px 0px;
@@ -1150,7 +1154,7 @@ header .book a {
   justify-content: space-between;
   padding: 13px 20px;
   border-radius: 4px;
-  background-color: #d5b800;
+  background-color: #000;
 }
 .dsl-list ul li a span {
   font-size: 16px;
@@ -1158,13 +1162,13 @@ header .book a {
   font-weight: 500;
 }
 .dsl-list ul li a i {
-  color: #a5000e;
+  color: #f00b0b;
   font-size: 21px;
   font-weight: 700;
 }
 .dsl-list ul li a:hover, .dsl-list ul li .active {
   box-shadow: 0px 10px 20px 0px #11687e23;
-  background: #a5000e;
+  background: #f00b0b;
   color: #ffffff;
 }
 .dsl-list ul li a:hover i, .dsl-list ul li .active i {
@@ -1188,7 +1192,7 @@ header .book a {
 .details-section .dsr .ds-box{
   padding: 15px;
   background-color: #eee;
-  border-left: 4px solid #d5b800;
+  border-left: 4px solid #000;
   margin-top: 20px;
 }
 /* ---Details-Section-End--- */
@@ -1289,7 +1293,7 @@ header .book a {
   background-image:linear-gradient(#00000080,#00000080),url(../images/hero2.PNG);
 }
 .menu::before{
-  background-color: #a5000e;
+  background-color: #f00b0b;
 }
 .menu::after {
   width: 45%;
@@ -1302,7 +1306,7 @@ header .book a {
 }
 
 .menu button.navbar-toggler{
-  border: 2px solid #a5000e;
+  border: 2px solid #f00b0b;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1411,7 +1415,9 @@ h2 {
   font-size: 15px;
 }
 .menu .navbar-brand img {
-  width: 160px;
+     max-width: 100%;
+    width: auto;
+    height: auto;
 }
 .map-section {
   height: 280px;
@@ -1512,7 +1518,7 @@ h2 {
 .thank ul li a{
   height:45px;
   width:45px;
-  background:#a5000e;
+  background:#f00b0b;
   color:#fff;
   font-size:20px;
   display:flex;
@@ -1558,7 +1564,7 @@ h2 {
 }
 .testimonial-section .bs-box{
   padding: 10px;
-  background-color: #d5b800	;
+  background-color: #f00b0b	;
 
   border-radius: 10px;
 }
@@ -1576,12 +1582,12 @@ h2 {
 .bs-box{
   transition: .5s;
   height: 100%;
-  margin: 0%;
+  margin: 0;
   padding: 0;
 }
 .bs-box:hover{
   color: #fff;
-  background-color: #a5000e ;
+  background-color: #000 ;
 }
 .bs-box:hover a{
   color: #fff;
