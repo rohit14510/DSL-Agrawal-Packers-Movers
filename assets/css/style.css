@@ -229,16 +229,39 @@ header .book a {
 
 /* ---Hero-Section--- */
 
-.hero-section .hero-slide{
-  padding: 100px 0px;
-  background-image: url(../images/hero1.PNG);
-  color: #fff;
+.hero-section .hero-slide,
+.hero-section .hero-slide2 {
+  position: relative;
+  padding: 100px 0;
   background-size: cover;
   background-position: center;
+  color: #fff;
+  z-index: 1;
+  overflow: hidden;
 }
-.hero-section .hero-slide2{
-  background-image: url(../images/hero2.PNG);
+
+/* Overlay */
+.hero-section .hero-slide::after,
+.hero-section .hero-slide2::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* 0.5 = 50% dark overlay */
+  z-index: -1;
 }
+
+/* Background images */
+.hero-section .hero-slide {
+  background-image: url(../images/hero2.jpg);
+}
+
+.hero-section .hero-slide2 {
+  background-image: url(../images/banner.jpg);
+}
+
 .hero-section .slick-dots{
   display: none !important;
 }
@@ -1287,10 +1310,10 @@ header .book a {
   margin: 5px 0px;
 }
 .hero-section .hero-slide{
-  background-image:linear-gradient(#00000080,#00000080),url(../images/hero1.PNG);
+  background-image:linear-gradient(#00000080,#00000080),url(../images/hero2.jpg);
 }
 .hero-section .hero-slide2{
-  background-image:linear-gradient(#00000080,#00000080),url(../images/hero2.PNG);
+  background-image:linear-gradient(#00000080,#00000080),url(../images/banner.jpg);
 }
 .menu::before{
   background-color: #f00b0b;
